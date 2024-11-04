@@ -8,7 +8,7 @@
   * While Scooby is running around, there will be a timer counting down from 30 seconds. If Scooby eats a snack, the timer resets to 30 seconds. The end goal is that Scooby finds Shaggy, and frees him. That’s how you win. You have to avoid the monster while eating snacks and looking for Shaggy.  
   * Monster should be one of these guys
 
-!["image"][https://github.com/MiloMessinger/Sean-scoobydoogame/blob/main/image1.png?raw=true]
+!["image"](https://github.com/MiloMessinger/Sean-scoobydoogame/blob/main/image1.png?raw=true)
 
 * **Identify the Target Audience**  
   * People who like Scooby-Doo and pretty much anyone tapped into video games can play this. It’s supposed to be a scary game but not really. 
@@ -34,20 +34,20 @@
       * Kanye (the monster) is chasing you (Scooby-Doo). As the monster gets closer the music gets louder. While you are running from the monster, a 30 second timer is counting down and you need to eat a “snack” that's randomly placed on the map to reset the timer. While you are eating snacks and running away from the monster, you are looking for shaggy.  
     * Add decorations around the map. Gargoyles, bookshelves, long tables, chandeliers, big bedrooms, vanities, make it look like an old abandoned mansion.
 
-!["image"][https://github.com/MiloMessinger/Sean-scoobydoogame/blob/main/image2.png?raw=true]
+!["image"](https://github.com/MiloMessinger/Sean-scoobydoogame/blob/main/image2.png?raw=true)
 
-!["image"][https://github.com/MiloMessinger/Sean-scoobydoogame/blob/main/image3.png?raw=true]
+!["image"](https://github.com/MiloMessinger/Sean-scoobydoogame/blob/main/image3.png?raw=true)
 
-!["image"][https://github.com/MiloMessinger/Sean-scoobydoogame/blob/main/image4.png?raw=true]
+!["image"](https://github.com/MiloMessinger/Sean-scoobydoogame/blob/main/image4.png?raw=true)
 
-!["image"][https://github.com/MiloMessinger/Sean-scoobydoogame/blob/main/image5.png?raw=true]
+!["image"](https://github.com/MiloMessinger/Sean-scoobydoogame/blob/main/image5.png?raw=true)
 
 ### **Functionality**
 
 * **Core Features**  
   * “Eating” a snack basically means that you run on top of the floating snack and then the timer resets.
 
-!["image"][https://github.com/MiloMessinger/Sean-scoobydoogame/blob/main/image6.png?raw=true]
+!["image"](https://github.com/MiloMessinger/Sean-scoobydoogame/blob/main/image6.png?raw=true)
 
 Imagine the snack is like this, floating a little off the ground and glowing. The snack can be whatever you want, but it should be glowing a little bit and be hovering just off the ground.
 
@@ -64,7 +64,7 @@ All you have to do is run on top of it, then the snack should disappear.
 ### **4\. Create Design Sketches**
 
 * **Wireframes**  
-  * !["image"][https://github.com/MiloMessinger/Sean-scoobydoogame/blob/main/image7.png?raw=true]  
+  * !["image"](https://github.com/MiloMessinger/Sean-scoobydoogame/blob/main/image7.png?raw=true) 
   * I ran out of creations but this is roughly what it should look like. The settings cog should be in the top right corner, and there shouldn't be those weird buttons on the far left and right. It should just be the Play and settings button.  
-  * !["image"][https://github.com/MiloMessinger/Sean-scoobydoogame/blob/main/image8.png?raw=true]  
+  * !["image"](https://github.com/MiloMessinger/Sean-scoobydoogame/blob/main/image8.png?raw=true) 
   * Map select could look something like this, but retaining the same spooky theme.
