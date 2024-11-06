@@ -1,4 +1,4 @@
-#### **Technology Stack**
+## **Technology Stack**
 
 ### #1 Phaser - https://phaser.io/
 
@@ -14,7 +14,7 @@ Cons:  While the graphical user interface is nice, it seems like there is a lear
 - TweenJS has a lot of demos which render things nicely, but it seems to fall short of a whole game engine.
 - PixiJS is all HTML 5 too lightweight and gives too much control.  It doesn’t have much of a learning curve and supports only the very core mechanics of game design.  Every design should probably use this due to its feature customizability.
 
-#### **Architecture**
+## **Architecture**
 
 ### 1. **ScoobyDooGame**
 
