@@ -96,7 +96,7 @@ Represents the monster that chases Scooby, with AI-driven path-solving movement 
     - **`resetPosition`**
         - **Behavior**: Places monster back at starting point after Scooby escapes or if game restarts.
     - **`checkCollision`**
-        - **Input**: `Point position`
+        - **Input**: `Point position` of `scooby`
         - **Output**: `boolean` - Returns true if monster catches Scooby.
 
 ## **Figma**
