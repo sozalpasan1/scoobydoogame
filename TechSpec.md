@@ -10,10 +10,10 @@ Cons: It requires an account and an internet connection to work, as it's a cloud
 
 ### Other Contenders : Babylon, Three.js, Pixi.js, Construct
 
-- [Babylon] (https://bablyonjs.io) is trying to do way too many things and supports far too much technology.  It can handle the Scooby Doo game, however it is designed to do EVERYTHING, including VR and more.  Its menus are far too complex to navigate and even the intro tutorials look way too niche for the amount of options it has avilable.
-- [Three.js] (https://threejs.org) is a library, not a game engine, so it won't actually help create a game. It is open-source, but the renders aren't even that clean, so it's not worth it.
-- [Pixi.js] (https://pixijs.com) is all HTML 5; it's too lightweight and gives too much control. It doesn't have much of a learning curve and supports only the very core mechanics of game design. However, it doesn't support 3D modeling well.
-- [Construct] (https://www.construct.net/en) is a really clean 2D game engine with some 3D elements that are easy to use, but its 3D capabilities aren't enough for this game.
+- [Babylon](https://bablyonjs.io) is trying to do way too many things and supports far too much technology.  It can handle the Scooby Doo game, however it is designed to do EVERYTHING, including VR and more.  Its menus are far too complex to navigate and even the intro tutorials look way too niche for the amount of options it has avilable.
+- [Three.js](https://threejs.org) is a library, not a game engine, so it won't actually help create a game. It is open-source, but the renders aren't even that clean, so it's not worth it.
+- [Pixi.js](https://pixijs.com) is all HTML 5; it's too lightweight and gives too much control. It doesn't have much of a learning curve and supports only the very core mechanics of game design. However, it doesn't support 3D modeling well.
+- [Construct](https://www.construct.net/en) is a really clean 2D game engine with some 3D elements that are easy to use, but its 3D capabilities aren't enough for this game.
 
 ## **Architecture**
 
@@ -96,7 +96,7 @@ Represents the monster that chases Scooby, with AI-driven path-solving movement 
     - **`resetPosition`**
         - **Behavior**: Places monster back at starting point after Scooby escapes or if game restarts.
     - **`checkCollision`**
-        - **Input**: `ScoobyDoo scooby`
+        - **Input**: `Point position`
         - **Output**: `boolean` - Returns true if monster catches Scooby.
 
 ## **Figma**
