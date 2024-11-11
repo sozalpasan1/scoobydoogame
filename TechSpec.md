@@ -1,6 +1,6 @@
 ## **Technology Stack**
 
-### #1 PlayCanvas - https://playcanvas.com/
+### PlayCanvas - https://playcanvas.com/
 
 PlayCanvas looks pretty simple and has Graphical User Interface (GUI) editing for the core behaviors. 
 
@@ -8,12 +8,12 @@ Pros: In-browser editing, cross-platform support/mobile optimized, and has ways 
 
 Cons: It requires an account and an internet connection to work, as it's a cloud-based editor. Its asset library is also not that large, so some assets may need to be imported. 
 
-### Contenders : Babylon, Three.js, Pixi.js, Construct
+### Other Contenders : Babylon, Three.js, Pixi.js, Construct
 
-- Babylon is trying to do way too many things and support far too much technology.  It can handle the Scooby Doo game, however it is designed to do EVERYTHING including VR and a million other things.  Its menus are far too complex to navigate and even the intro tutorials look way too niche for the amount of options it has avilable.
-- Three.js is a library, not a game engine, so it won't actually help create a game. It is open-source, but the renders aren't even that clean, so it's not worth it.
-- Pixi.js is all HTML 5 too lightweight and gives too much control. It doesn't have much of a learning curve and supports only the very core mechanics of game design. Every design should probably use this due to its feature customizability.
-- Construct is a really clean 2D game engine with some 3D elements that are easy to use, but its 3D capabilities aren't enough for this game.
+- [Babylon] (https://bablyonjs.io) is trying to do way too many things and supports far too much technology.  It can handle the Scooby Doo game, however it is designed to do EVERYTHING, including VR and more.  Its menus are far too complex to navigate and even the intro tutorials look way too niche for the amount of options it has avilable.
+- [Three.js] (https://threejs.org) is a library, not a game engine, so it won't actually help create a game. It is open-source, but the renders aren't even that clean, so it's not worth it.
+- [Pixi.js] (https://pixijs.com) is all HTML 5; it's too lightweight and gives too much control. It doesn't have much of a learning curve and supports only the very core mechanics of game design. However, it doesn't support 3D modeling well.
+- [Construct] (https://www.construct.net/en) is a really clean 2D game engine with some 3D elements that are easy to use, but its 3D capabilities aren't enough for this game.
 
 ## **Architecture**
 
@@ -54,7 +54,7 @@ Handles the layout, placement of snacks, and obstacles in the 3D environment.
     - `shaggyLocation: Point` - Location of Shaggy on the map.
 - **Methods**
     - **`loadMap`**
-        - **Behavior**: Sets up the map's layout, placing snacks and obstacles randomly.
+        - **Behavior**: Loads in the map's layout from the selected map and randomly places snacks and obstacles in it.
     - **`checkCollision`**
         - **Input**: `Point position` - Checks if a location has an obstacle.
         - **Output**: `boolean` - Returns true if an obstacle is present.
@@ -73,7 +73,7 @@ Represents Scooby-Doo, with movement and interactions within the map.
 - **Methods**
     - **`move`**
         - **Input**: `String direction`
-        - **Behavior**: Moves Scooby based on direction, checks for snacks, and avoids obstacles.
+        - **Behavior**: Moves Scooby based on the direction.  Addionally, checks for snacks at the new location.
     - **`resetPosition`**
         - **Behavior**: Sets Scooby's starting position when restarting or starting a new level.
     - **`snackCheck`**
@@ -85,8 +85,9 @@ Represents the monster that chases Scooby, with AI-driven path-solving movement 
 
 - **Variables**
     - `position: Point` - Monster's current position.
-    - `direction: String` - Direction the monster moves.
+    - `direction: String` - Current movement direction.
     - `soundRange: int` - Distance at which Scooby hears monster's sound.
+    - `monsterRender: int` - Randomly selects an index that grabs a representation of a monster within the array of monsters.
 - **Methods**
     - **`move`**
         - **Behavior**: Moves along the closest path to Scooby using `determinePath`. If Scooby is within `soundRange`, increases volume.
