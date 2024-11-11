@@ -99,6 +99,6 @@ Represents the monster that chases Scooby, with AI-driven path-solving movement 
         - **Output**: `boolean` - Returns true if monster catches Scooby.
 
 ## **Figma**
-- ![Figma Design Preview](<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/board/ly3BYcJqnPvnaGub5JjfAw/Welcome-to-FigJam?node-id=0-1&embed-host=share" allowfullscreen></iframe>)  
+- ![Figma Design Preview](https://www.figma.com/board/ly3BYcJqnPvnaGub5JjfAw/Welcome-to-FigJam?node-id=0-1&t=VOovutvVnNDUNEef-1)  
 - [View the Figma design](https://www.figma.com/board/ly3BYcJqnPvnaGub5JjfAw/Welcome-to-FigJam?node-id=0-1&t=VOovutvVnNDUNEef-1)
 
