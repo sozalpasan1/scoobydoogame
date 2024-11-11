@@ -30,7 +30,7 @@ Manages game states, monster behavior, and player objectives.
     - `map: Map` - Represents the current 3D map.
 - **Methods**
     - **`initializeGame`**
-        - **Behavior**: Sets initial timer, snack count, and spawns Scooby, monster, and snacks on the map.
+        - **Behavior**: Sets initial timer and snack count (based on Map); spawns Scooby, monster, and snacks on the map.
     - **`startLevel`**
         - **Behavior**: Loads a 3D map, places Scooby, and initializes monster behavior.
     - **`endLevel`**
@@ -54,7 +54,7 @@ Handles the layout, placement of snacks, and obstacles in the 3D environment.
     - `shaggyLocation: Point` - Location of Shaggy on the map.
 - **Methods**
     - **`loadMap`**
-        - **Behavior**: Loads in the map's layout from the selected map and randomly places snacks and obstacles in it.
+        - **Behavior**: Loads in the map's layout from the selected map and randomly places snacks and obstacles in it; generates Shaggy's location.
     - **`checkCollision`**
         - **Input**: `Point position` - Checks if a location has an obstacle.
         - **Output**: `boolean` - Returns true if an obstacle is present.
@@ -94,7 +94,7 @@ Represents the monster that chases Scooby, with AI-driven path-solving movement 
     - **`determinePath`**
         - **Behavior**: Determines shortest path from monster position to Scooby's position. 
     - **`resetPosition`**
-        - **Behavior**: Places monster back at starting point after Scooby escapes or if game restarts.
+        - **Behavior**: Places monster back at starting point after Scooby finds Shaggy or if game restarts.
     - **`checkCollision`**
         - **Input**: `Point position` of `scooby`
         - **Output**: `boolean` - Returns true if monster catches Scooby.
