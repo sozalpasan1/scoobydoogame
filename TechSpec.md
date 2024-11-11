@@ -1,18 +1,19 @@
 ## **Technology Stack**
 
-### #1 Phaser - https://phaser.io/
+### #1 PlayCanvas - https://playcanvas.com/
 
-Phaser looks simple as can be and has Graphical User Interface GUI editing for the core behaviors. 
+PlayCanvas looks pretty simple and has Graphical User Interface (GUI) editing for the core behaviors. 
 
-Pros:  It can be converted to JavaScript, is mobile optimized and has ways to support all the features this game HAS to have.  This means it really can do everything needed for this game.
+Pros: In-browser editing, cross-platform support/mobile optimized, and has ways to support all the features this game HAS to have. Additionally, it has really nice lighting and shader elements that will make the Scooby Doo game look good. The physics engine will also make the running and capturing of treats more realistic. It is also open source on GitHub, and the learning curve isn't too bad. The main scripting language is JavaScript.
 
-Cons:  While the graphical user interface is nice, it seems like there is a learning curve to go back into just code.  
+Cons: It requires an account and an internet connection to work, as it's a cloud-based editor. Its asset library is also not that large, so some assets may need to be imported. 
 
-### Contenders : PixiJS, Babylon, CreateJS
+### Contenders : Babylon, Three.js, Pixi.js, Construct
 
-- Babylon is trying to do way too many things and support far too much technology.  It can handle the PacMan game, however it is designed to do EVERYTHING including VR and a million other things.  Its menus are far too complex to navigate and even the intro tutorials look way too niche for the amount of options it has avilable.
-- TweenJS has a lot of demos which render things nicely, but it seems to fall short of a whole game engine.
-- PixiJS is all HTML 5 too lightweight and gives too much control.  It doesn’t have much of a learning curve and supports only the very core mechanics of game design.  Every design should probably use this due to its feature customizability.
+- Babylon is trying to do way too many things and support far too much technology.  It can handle the Scooby Doo game, however it is designed to do EVERYTHING including VR and a million other things.  Its menus are far too complex to navigate and even the intro tutorials look way too niche for the amount of options it has avilable.
+- Three.js is a library, not a game engine, so it won't actually help create a game. It is open-source, but the renders aren't even that clean, so it's not worth it.
+- Pixi.js is all HTML 5 too lightweight and gives too much control. It doesn't have much of a learning curve and supports only the very core mechanics of game design. Every design should probably use this due to its feature customizability.
+- Construct is a really clean 2D game engine with some 3D elements that are easy to use, but its 3D capabilities aren't enough for this game.
 
 ## **Architecture**
 
