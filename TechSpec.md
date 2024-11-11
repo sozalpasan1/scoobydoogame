@@ -99,13 +99,13 @@ Represents the monster that chases Scooby, with AI-driven path-solving movement 
         - **Output**: `boolean` - Returns true if monster catches Scooby.
 
 ## **Figma**
-- <iframe 
+<iframe 
   style="border: 1px solid rgba (0, 0, 0, 0.2);" 
   width="800" 
   height="450" 
   src="https://www.figma.com/board/ly3BYcJqnPvnaGub5JjfAw/ScoobyDooGame?node-id=0-1&t=VOovutvVnNDUNEef-1" 
   allowfullscreen>
-- </iframe>
+</iframe>
 
 - [View the Figma design](https://www.figma.com/board/ly3BYcJqnPvnaGub5JjfAw/ScoobyDooGame?node-id=0-1&t=VOovutvVnNDUNEef-1)
 
