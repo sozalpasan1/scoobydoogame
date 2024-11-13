@@ -35,7 +35,7 @@
       * This should give a good idea of the “skeleton” of the game  
       * Kanye (the monster) is chasing you (Scooby-Doo). As the monster gets closer the music gets louder. While you are running from the monster, a 30 second timer is counting down and you need to eat a “snack” that's randomly placed on the map to reset the timer. While you are eating snacks and running away from the monster, you are looking for shaggy. 
 
-      Shaggy is going to be placed in a random room across the map. Scooby has to find him. Ideally, when the game is started, Shaggy's spawn point is as far as possible from Scooby. The reward for winnign is a win screen.
+      Shaggy is going to be placed in a random room across the map. Scooby has to find him. Ideally, when the game is started, Shaggy's spawn point is as far as possible from Scooby. The reward for winning is a win screen.
       
     * Add decorations around the map. Gargoyles, bookshelves, long tables, chandeliers, big bedrooms, vanities, make it look like an old abandoned mansion. 
     
