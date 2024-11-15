@@ -2,6 +2,7 @@
 *.pdf
 *.jpg
 .DS_Store
+*.jpeg
  
 # Logs
 logs
