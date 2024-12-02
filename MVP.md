@@ -2,7 +2,7 @@
 - Point class/all position methods
     - Whole game is based on your location and the monster's relative to the map. Also checks for collisions with walls, shaggy, snacks and monster, allows death
 - scooby: ScoobyDoo
-    - is the playable character/protag of the whole game. Unplayable without the scoobsta
+    - is the playable character/protag of the whole game.
 - monster: Monster
     - Only objective is to run from the monster. Need a monster
 - startLevel: void
