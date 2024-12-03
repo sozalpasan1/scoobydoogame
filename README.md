@@ -17,10 +17,11 @@ Fork, then clone the repo.
 
 Youll notice that in the repo, there is a .zip file.
 
-This .zip file (called First Person Shooter.zip) is the entire game.
+This .zip file (called ScoobyDooInitGame.zip) is the entire game.
 
 Go to PlayCanvas, go to your profile, and there should be a tab called, "Projects" with a home icon next to it
 
 On the left-hand side, there should be a button that says "Import Project"
 
-Click on this, then select your zip file.
+Click on this, then select the zip file.
+
