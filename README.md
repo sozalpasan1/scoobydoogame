@@ -57,7 +57,7 @@ Now that your done editing for the day, its time to commit this puppy.
 
 # THIS PART A LIL COMPLEX, SO PAY ATTENTION
 
-Look at your MAIN projects page, the on you get to from clicking on your pfp in the top right.
+Look at your MAIN projects page, the one you get to from clicking on your pfp in the top right.
 
 There should be a thumbnail (not accurate of what the acc project looks like)
 
@@ -65,7 +65,7 @@ There should be the name of the project
 
 The date it was created
 
-The Access, and your Permissions
+the access of the files, and your permissions
 
 To the right of all this, you will see your user Icon, and a small down arrow.
 
@@ -80,3 +80,5 @@ Then simply add this new file to the root level of the repository.
 ## DO NOT ADD ANYTHING INTO ./public
 
 Because you will only be changing the game, no changes need to be made in regards to the actual "web development" part
+
+Then you can commit whatever you made for the day.
