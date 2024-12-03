@@ -141,10 +141,7 @@
 
         if (typeof window.Promise === 'function') {
             var LEGACY_WEBGL = 'webgl';
-            var deviceTypes = deviceOptions.preferWebGl2 === false ?
-                [pc.DEVICETYPE_WEBGL1, pc.DEVICETYPE_WEBGL2] :
-                deviceOptions.deviceTypes;
-            deviceTypes.push(LEGACY_WEBGL);
+            var deviceTypes = [...deviceOptions.deviceTypes, LEGACY_WEBGL];
 
             var gpuLibPath = window.ASSET_PREFIX ? (window.ASSET_PREFIX.replace(/\/$/g, '') + '/') : '';
 
