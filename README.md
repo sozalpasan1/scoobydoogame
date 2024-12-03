@@ -31,6 +31,10 @@ The importing process will now begin.
 
 # go to the settings tab, and change where it says "Scooby Doo" TO "YOURNAME_scoobydoo"
 
+# THEN CLICK SAVE AT THE BOTTOM
+
+## please make sure the name at the top of the screen properly updates
+
 ### Now you can click on the orange "EDITOR" button
 That opens the editor
 
@@ -46,11 +50,14 @@ For testing you can click the "Launch" button in the top right corner of the vie
 
 # YOURE DONE? OK COOL
 
+After your done in the editor, you can just close the tab. 
+PlayCanvas saves everything automatically
+
 Now that your done editing for the day, its time to commit this puppy.
 
 # THIS PART A LIL COMPLEX, SO PAY ATTENTION
 
-Look at your projects page.
+Look at your MAIN projects page, the on you get to from clicking on your pfp in the top right.
 
 There should be a thumbnail (not accurate of what the acc project looks like)
 
