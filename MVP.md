@@ -15,6 +15,7 @@
     - objective is to find shaggy so you need a shaggy
 - all move/direction methods/vars
 - speed: Scooby/Monster
+- ###RIYAN UPDATED MVP NOTES: in game editor, removed excess default materials and created walls and map structure
 
 ## P1 ##
 - checkCollision: Monster
