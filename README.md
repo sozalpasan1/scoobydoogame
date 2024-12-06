@@ -50,10 +50,10 @@ For testing you can click the "Launch" button in the top right corner of the vie
 
 # YOURE DONE? OK COOL
 
-After your done in the editor, you can just close the tab. 
+After you're done in the editor, you can just close the tab. 
 PlayCanvas saves everything automatically
 
-Now that your done editing for the day, its time to commit this puppy.
+Now that you're done editing for the day, it's time to commit this puppy.
 
 # THIS PART A LIL COMPLEX, SO PAY ATTENTION
 
