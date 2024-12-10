@@ -19,7 +19,7 @@ Youll notice that in the repo, there is a .zip file.
 
 This .zip file (called ScoobyDooInitGame.zip) is the entire game.
 
-Go to PlayCanvas, go to your profile, and there should be a tab called, "Projects" --> Click on it
+Go to https://playcanvas.com, make an account, go to your profile, and there should be a tab called, "Projects" --> Click on it
 
 On the left-hand side, there should be a button that says "Import Project"
 
